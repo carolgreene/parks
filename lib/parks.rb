@@ -11,3 +11,4 @@ require_relative "./parks/version"
 #Load the rest of the lib files
 require_relative "./parks/cli"  
 require_relative "./parks/park"
+require_relative "./parks/scraper"
