@@ -1,3 +1,7 @@
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
+
 require_relative "./parks/version"
 
 #module Parks
@@ -6,3 +10,4 @@ require_relative "./parks/version"
 
 #Load the rest of the lib files
 require_relative "./parks/cli"  
+require_relative "./parks/park"
