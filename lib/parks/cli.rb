@@ -11,7 +11,7 @@ class Parks::CLI
   def list_parks
     @parks = Parks::Park.all      
     @parks.each.with_index(1) do |park, i|
-      puts "#{i}. #{park.name} - #{park.location}"
+      puts "#{i}. #{park.name} - #{park.location} - #{park.url}"
     end
   end
 
