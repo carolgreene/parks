@@ -14,7 +14,7 @@ class Parks::Scraper
 
   def self.scrape_description(park)
     #binding.pry
-    detail = Nokogiri::HTML(open('https://www.timeout.com/park.url'))
+    detail = Nokogiri::HTML(open('https://www.timeout.com/chicago/attractions/millennium-park-chicago-il'))
   end
         
 
