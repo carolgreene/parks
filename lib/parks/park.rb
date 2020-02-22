@@ -1,13 +1,14 @@
 class Parks::Park
-  attr_accessor :name, :location, :url
+  attr_accessor :name, :location, :url, :summary
 
   @@all = []
 
-  def initialize(name = nil, location = nil, description = nil, url = nil)
+  def initialize(name = nil, location = nil, description = nil, url = nil, summary = nil)
     @name = name
     @location = location
     @description = description
     @url = url
+    @summary = summary
     save
   end
 
